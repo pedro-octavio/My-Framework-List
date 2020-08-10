@@ -17,7 +17,8 @@ namespace MyFrameworkList.Application.Mappers
                 {
                     Id = obj.Id,
                     Name = obj.Name,
-                    Description = obj.Description
+                    Description = obj.Description,
+                    LanguageId = obj.LanguageId
                 };
             }
             catch (Exception ex)
@@ -34,7 +35,8 @@ namespace MyFrameworkList.Application.Mappers
                 {
                     Id = obj.Id,
                     Name = obj.Name,
-                    Description = obj.Description
+                    Description = obj.Description,
+                    LanguageId = obj.LanguageId
                 };
             }
             catch (Exception ex)
@@ -51,7 +53,8 @@ namespace MyFrameworkList.Application.Mappers
                 {
                     Id = f.Id,
                     Name = f.Name,
-                    Description = f.Description
+                    Description = f.Description,
+                    LanguageId = f.LanguageId
                 });
             }
             catch (Exception ex)

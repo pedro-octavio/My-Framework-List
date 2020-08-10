@@ -12,5 +12,6 @@ namespace MyFrameworkList.Domain.Entities
         [Required]
         [MaxLength(200)]
         public string Description { get; set; }
+        public int LanguageId { get; set; }
     }
 }

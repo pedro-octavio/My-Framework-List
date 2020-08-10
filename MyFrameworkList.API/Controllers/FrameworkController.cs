@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using MyFrameworkList.Application.DTOs;
 using MyFrameworkList.Application.Interfaces;
 
@@ -46,7 +47,7 @@ namespace MyFrameworkList.API.Controllers
             {
                 _applicationServiceFramework.Add(framework);
 
-                return Ok("Language successfull created.");
+                return Ok("Framework successfull created.");
             }
             catch (Exception ex)
             {
@@ -61,7 +62,7 @@ namespace MyFrameworkList.API.Controllers
             {
                 _applicationServiceFramework.Update(framework);
 
-                return Ok("Language successfull updated.");
+                return Ok("Framework successfull updated.");
             }
             catch (Exception ex)
             {
@@ -76,7 +77,7 @@ namespace MyFrameworkList.API.Controllers
             {
                 _applicationServiceFramework.Remove(id);
 
-                return Ok("Language successfull deleted.");
+                return Ok("Framework successfull deleted.");
             }
             catch (Exception ex)
             {
