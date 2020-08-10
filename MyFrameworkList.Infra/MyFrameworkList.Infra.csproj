@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyFrameworkList.Application\MyFrameworkList.Application.csproj" />
+    <ProjectReference Include="..\MyFrameworkList.Domain.Core\MyFrameworkList.Domain.Core.csproj" />
+    <ProjectReference Include="..\MyFrameworkList.Domain.Services\MyFrameworkList.Domain.Services.csproj" />
+  </ItemGroup>
+
+</Project>
